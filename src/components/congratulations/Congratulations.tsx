@@ -3,13 +3,13 @@ import './Congratulations.css'
 function Congratulations(props) {
 
 	return <div className='result-card win-card'>
-		<h2 className='result-title'>🎉 Победа!</h2>
-		<p className='result-text'>
-			Поздравляю! Твой слон наелся здоровой пищи и с улыбкой побежал играть с другими слонами🎉
-		</p>
+		<h2 className='result-title'>🎉 Перемога!</h2>
+        <p className='result-text'>
+            Вітаю! Твій слон наївся здорової їжі та з посмішкою побіг гратися з іншими слонами🎉
+        </p>
 		<button className='restart-btn' onClick={props.onStart}>
-			Давай сыграем еще раз и покормим другого слона
-		</button>
+            Давай зіграємо ще раз і нагодуємо іншого слона
+        </button>
 		<div className='result-emoji'>😊</div>
 	</div>
 }

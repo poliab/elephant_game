@@ -23,8 +23,15 @@
 	background: #f4511e;
 }
 
-.elephant {
+.elephant-area {
+	height: 260px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-top: 24px;
+}
+
+.elephant {
 	transition: font-size 0.35s ease;
-	filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.15));
+	filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.55));
 }

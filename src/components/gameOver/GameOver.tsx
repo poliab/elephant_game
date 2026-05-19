@@ -5,10 +5,10 @@ function GameOver(props) {
 	return (
 		<div className='result-card lose-card'>
 			<h2 className='result-title'>Ой-ой...</h2>
-			<p className='result-text'>У твоего слоника заболел живот и вместо того чтобы играть со своими друзьями он пошел к врачу. В следующий раз корми слона правильной пищей, чтобы слоник был здоров</p>
+			<p className='result-text'>У твого слоненя заболів животик, і замість того, щоб гратися зі своїми друзями, він пішов до лікаря. Наступного разу годуй слоненя правильною їжею, щоб воно було здоровим</p>
 			<button className='restart-btn' onClick={props.onStart}>
-				Но не расстраивайся. Давай сыграем еще раз
-			</button>
+                Але не засмучуйся. Давай зіграємо ще раз
+            </button>
 			<div className='result-emoji'>🥲</div>
 		</div>
 	)

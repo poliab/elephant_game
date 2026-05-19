@@ -11,8 +11,8 @@ export function Counter(props) {
 	}
 	return (
 		<div>
-			<h3 className="game-title">Мини-игра</h3>
-			<p className="game-text">Нажми на кнопку 5 раз, чтобы увидеть слона</p>
+			<h3 className="game-title">Міні-гра</h3>
+            <p className="game-text">Натисни на кнопку 5 разів, щоб побачити слона</p>
 			<button className="game-btn restart" onClick={handleClick}>+ {value}</button>
 		</div>
 	);

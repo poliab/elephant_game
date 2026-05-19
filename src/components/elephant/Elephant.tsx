@@ -26,18 +26,22 @@ export function Elephant(props) {
 		<div>
 			<div>
 				<div>
-					<h1 className="game-title">Покорми слона</h1>
-					<p className="status-text">Размер слона: {weight}</p>
+					<h1 className="game-title">Нагодуй слона</h1>
+                    <p className="status-text">Вага слона: {weight}</p>
 
 					<button className="game-btn primary" onClick={handleFeedHealthyFood}>
-						Кормить слона полезной едой 🥬🍉🍌
+                        Годувати слона корисною їжею 🥬🍉🍌
 					</button>
 
-					<button className="game-btn danger" onClick={handleFeedJunkFood}>
-						Кормить слона вредной едой 🍔🍬🍕
-					</button>
+                    <button className="game-btn danger" onClick={handleFeedJunkFood}>
+                        Годувати слона шкідливою їжею 🍔🍬🍕
+                    </button>
 
-					<div className="elephant" style={{ fontSize: `${weight}px` }}>🐘</div>
+					<div className="elephant-area">
+						<div className="elephant" style={{ fontSize: `${weight}px` }}>
+						🐘
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
