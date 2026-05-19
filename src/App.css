@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Trebuchet MS', sans-serif;
+	background: linear-gradient(135deg,
+		#bde0fe,
+		#adfcdf,
+		#ffe5b4,
+		#d2b4ff
+	);
+}
+
+.game-title {
+	font-size: 36px;
+	margin-bottom: 16px;
+	color: #333;
+}
+
+.game-btn {
+	border: none;
+	border-radius: 16px;
+	padding: 14px 22px;
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer;
+	margin: 10px;
+	transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+	box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.game-btn:hover {
+	transform: translateY(-3px);
+}
+
+.game-btn:active {
+	transform: translateY(1px) scale(0.98);
+}
+
+.result-card {
+	max-width: 620px;
+	margin: 40px auto;
+	padding: 40px 32px;
+	border-radius: 28px;
+	text-align: center;
+}
+
+.result-title {
+	font-size: 38px;
+	margin-bottom: 16px;
+	font-weight: 800;
+}
+
+.result-text {
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 24px;
+}
+
+.result-emoji {
+	font-size: 180px;
+	margin: 20px 0;
+}
+
+.restart-btn {
+	border: none;
+	border-radius: 16px;
+	padding: 14px 24px;
+	font-size: 15px;
+	font-weight: 500;
+	cursor: pointer;
+	transition: 0.25s;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}

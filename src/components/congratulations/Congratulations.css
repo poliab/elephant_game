@@ -1,0 +1,23 @@
+.win-card {
+	background: linear-gradient(45deg, #d9ffd2, #fff4a8, #fff8d6);
+	color: #2f5d1f;
+	border: 3px solid #b7eb8f;
+}
+
+.win-card .result-title {
+	color: #2e7d32;
+}
+
+.win-card .result-emoji {
+	animation: bounce 1.2s infinite;
+}
+
+.win-card .restart-btn {
+	background: #43a047;
+	color: white;
+}
+
+.win-card .restart-btn:hover {
+	background: #388e3c;
+	transform: translateY(-2px);
+}

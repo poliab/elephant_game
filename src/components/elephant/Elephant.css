@@ -1,0 +1,30 @@
+.status-text {
+	font-size: 18px;
+	font-weight: 700;
+	color: #444;
+	margin-top: 16px;
+}
+
+.game-btn.primary {
+	background: #4caf50;
+	color: white;
+}
+
+.game-btn.primary:hover {
+	background: #43a047;
+}
+
+.game-btn.danger {
+	background: #ff7043;
+	color: white;
+}
+
+.game-btn.danger:hover {
+	background: #f4511e;
+}
+
+.elephant {
+	margin-top: 24px;
+	transition: font-size 0.35s ease;
+	filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.15));
+}
