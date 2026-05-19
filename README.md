@@ -1,4 +1,4 @@
-# Гра "Слон" (Elephant Game) - Урок 18
+# Гра "Слон" (Elephant Game)
 
 Цей проєкт створений за допомогою React, TypeScript та Vite. 
 
