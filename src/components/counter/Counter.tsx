@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './Counter.css';
+import type { CounterProps } from '../../types/game.type'
 
-export function Counter(props) {
+export function Counter(props: CounterProps) {
 	const [value, setValue] = useState(1)
 	const handleClick = () => {
 		setValue(value + 1)

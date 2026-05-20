@@ -1,6 +1,7 @@
 import './GameOver.css'
+import type { RestartProps } from '../../types/game.type'
 
-function GameOver(props) {
+function GameOver(props: RestartProps) {
 
 	return (
 		<div className='result-card lose-card'>

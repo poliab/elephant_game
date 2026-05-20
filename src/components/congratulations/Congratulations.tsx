@@ -1,6 +1,7 @@
 import './Congratulations.css'
+import type { RestartProps } from '../../types/game.type'
 
-function Congratulations(props) {
+function Congratulations(props: RestartProps) {
 
 	return <div className='result-card win-card'>
 		<h2 className='result-title'>🎉 Перемога!</h2>

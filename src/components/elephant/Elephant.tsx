@@ -2,8 +2,9 @@ import { useState } from 'react'
 import Congratulations from '../congratulations/Congratulations'
 import GameOver from '../gameOver/GameOver'
 import './Elephant.css'
+import type { RestartProps } from '../../types/game.type'
 
-export function Elephant(props) {
+export function Elephant(props: RestartProps) {
 	const [weight, setWeight] = useState(100) // 100 условных единиц
 
 	const handleFeedHealthyFood = () => {
